@@ -1,5 +1,5 @@
 {% set name = "piecewise-regression" %}
-{% set version = "1.1.2" %}
+{% set version = "1.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/piecewise-regression-{{ version }}.tar.gz
-  sha256: 80f9c2a6a3b94e8eb38f3734d474c1ddee262564d99817bd4ab3c2a21b834af0
+  sha256: 7524e09264ff7180f7641f83b0c5b6a6dd69cc31a6011798b56792370be49ce1
 
 build:
   number: 0
